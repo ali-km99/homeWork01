@@ -140,7 +140,7 @@ public class HomeWork01 {
         return array;
     }
 
-    // Selection Sort: repeatedly select the smallest remaining value.
+    // Selection Sort
     public static void selectionSort(int[] array) {
         int n = array.length;
 
@@ -161,7 +161,7 @@ public class HomeWork01 {
         }
     }
 
-    // Insertion Sort: insert each element into its correct position.
+    // Insertion Sort
     public static void insertionSort(int[] array) {
         for (int i = 1; i < array.length; i++) {
             int key = array[i];
@@ -176,7 +176,7 @@ public class HomeWork01 {
         }
     }
 
-    // Bubble Sort: swap adjacent elements when they are out of order.
+    // Bubble Sort
     public static void bubbleSort(int[] array) {
         int n = array.length;
 
@@ -200,7 +200,7 @@ public class HomeWork01 {
         }
     }
 
-    // Merge Sort: divide the array, sort each half, then merge.
+    // Merge Sort
     public static void mergeSort(int[] array) {
         if (array.length < 2) {
             return;
@@ -254,7 +254,7 @@ public class HomeWork01 {
     }
 
     // Quick Sort using a middle-element pivot.
-    // Recursing on the smaller partition limits stack depth.
+  
     public static void quickSort(int[] array) {
         quickSort(array, 0, array.length - 1);
     }
