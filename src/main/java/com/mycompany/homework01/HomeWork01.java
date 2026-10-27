@@ -126,8 +126,7 @@ public class HomeWork01 {
         return array;
     }
 
-    // Start with sorted data, then replace approximately 20%
-    // of its elements with random values at scattered positions.
+  // الترتيب بنسبة 20% من  عناصر المصفوفة
     private static int[] createPartiallySortedArray() {
         int[] array = createSortedArray();
 
